@@ -1,0 +1,28 @@
+FACIL!!
+1.- Se creo la base de datos
+2.- Se programa lo aplicación de escritorio con su conexión a la base de datos
+
+LO NUEVO QUE SE APRENDIO y DIVERTIDO
+
+3.- Se programo el Web service en modo desarrollo
+4.- Se programo la aplicación en Android con su conexion al web service por medio de SOAP
+
+5.- Se hicieron pruebas en conjunto (App Escritorio, WebService, App Android) aun en modo desarrollo
+
+6.- Se implemento el Web service en modo produccion, los pasos se describen a continuación:
+	a) se publico el proyecto(se elijio sistema de archivos)
+	b) en programas y caracteristicas + Activar o desactivar caracteristicas, se instalo TODO el IIS(Internet Information Service)
+	c) la carpeta generada por la publicacion se copia en la direccion c/inetpub/wwwroot
+	d) abre el IIS y se crea un nuevo sitio con la el proyecto copiado y con los campos obligatorios(IP, PUERTO)
+	e) tambien se debe tener en cuenta el Framework en que trabaja el proyecto
+	f) en examen de directorios del sitio nuevo se habilita
+	g) en grupos de aplicaciones en el campo identidad se deja (LocalSystem)
+	h) en el sitio nuevo se modifica la cadena de conexion
+	i) en firewall de windows crear una nueva regla de entrada para el puerto que se elijio en el sitio
+	i) se reinicia y ya debe de quedar
+
+NOTA todo lo anterior deja al proyecto funcionando en una red LOCAL(LAN)
+
+se debe investigar en la parte de la app android que direccion debe tener para enviar la aplicacion
+se debe investigar que configuracion hacer en el mode para que desde internet redirija la informacion que manda la app android al servidor, segun el puerto por donde entre
+		

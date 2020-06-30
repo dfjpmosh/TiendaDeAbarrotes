@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="C:\Users\dfjpmosh\Desktop\WebService-MiniSuperF3" deleteExistingFiles="True" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="Perfil1" publishMethod="FileSystem" replaceMatchingFiles="False" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
+    <file relUrl="bin/WebService2.pdb" publishTime="02/25/2016 14:46:41" />
+    <file relUrl="bin/WebService2.dll" publishTime="02/25/2016 14:46:41" />
+    <file relUrl="Service1.asmx" publishTime="02/24/2016 15:57:11" />
+    <file relUrl="Web.config" publishTime="02/24/2016 16:04:10" />
+  </publishProfile>
+</publishData>
