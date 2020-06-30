@@ -1,0 +1,10 @@
+C:\Users\advance\Desktop\ServiceWebAsp\ServiceWebAplicacion\ServiceWebAplicacion\bin\ServiceWebAplicacion.dll
+C:\Users\advance\Desktop\ServiceWebAsp\ServiceWebAplicacion\ServiceWebAplicacion\bin\ServiceWebAplicacion.pdb
+C:\Users\advance\Desktop\ServiceWebAsp\ServiceWebAplicacion\ServiceWebAplicacion\obj\Debug\ServiceWebAplicacion.dll
+C:\Users\advance\Desktop\ServiceWebAsp\ServiceWebAplicacion\ServiceWebAplicacion\obj\Debug\ServiceWebAplicacion.pdb
+C:\Users\advance\Desktop\ServiceWebAsp\ServiceWebAplicacion\ServiceWebAplicacion\obj\Debug\ServiceWebAplicacion.csprojResolveAssemblyReference.cache
+D:\dfjpmosh\Documents\Visual Studio 2010\Projects\ServiceWebAplicacion\ServiceWebAplicacion\bin\ServiceWebAplicacion.dll
+D:\dfjpmosh\Documents\Visual Studio 2010\Projects\ServiceWebAplicacion\ServiceWebAplicacion\bin\ServiceWebAplicacion.pdb
+D:\dfjpmosh\Documents\Visual Studio 2010\Projects\ServiceWebAplicacion\ServiceWebAplicacion\obj\Debug\ResolveAssemblyReference.cache
+D:\dfjpmosh\Documents\Visual Studio 2010\Projects\ServiceWebAplicacion\ServiceWebAplicacion\obj\Debug\ServiceWebAplicacion.dll
+D:\dfjpmosh\Documents\Visual Studio 2010\Projects\ServiceWebAplicacion\ServiceWebAplicacion\obj\Debug\ServiceWebAplicacion.pdb
