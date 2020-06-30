@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3DD61CD2-BA41-4ABA-9D71-B812E0541D30}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Tienda_de_Abarrotes</RootNamespace>
+    <AssemblyName>Tienda de Abarrotes</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CCategoria.cs" />
+    <Compile Include="CCliente.cs" />
+    <Compile Include="CConexionBD.cs" />
+    <Compile Include="CDetallePedido.cs" />
+    <Compile Include="CDetalleVenta.cs" />
+    <Compile Include="CPedido.cs" />
+    <Compile Include="CProducto.cs" />
+    <Compile Include="CProveedor.cs" />
+    <Compile Include="CVentas.cs" />
+    <Compile Include="FEditaProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FEditaProducto.Designer.cs">
+      <DependentUpon>FEditaProducto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FInCantidad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FInCantidad.Designer.cs">
+      <DependentUpon>FInCantidad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FPedidos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FPedidos.Designer.cs">
+      <DependentUpon>FPedidos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FPreload.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FPreload.Designer.cs">
+      <DependentUpon>FPreload.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FSelecFecha.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FSelecFecha.Designer.cs">
+      <DependentUpon>FSelecFecha.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FSelecPoC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FSelecPoC.Designer.cs">
+      <DependentUpon>FSelecPoC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FEditaProducto.resx">
+      <DependentUpon>FEditaProducto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FInCantidad.resx">
+      <DependentUpon>FInCantidad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FPedidos.resx">
+      <DependentUpon>FPedidos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FPreload.resx">
+      <DependentUpon>FPreload.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FSelecFecha.resx">
+      <DependentUpon>FSelecFecha.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FSelecPoC.resx">
+      <DependentUpon>FSelecPoC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Vehiculos-175.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cargando.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Alta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Baja.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Aceptar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fondo con Borde1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\abarrotestr1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\abarrotestr2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\abarrotestr11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\abarrotestr12.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cancelar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lupa.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

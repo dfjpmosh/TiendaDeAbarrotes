@@ -1,0 +1,25 @@
+c:\users\dfjpmosh\documents\visual studio 2010\Projects\Tienda de Abarrotes\Tienda de Abarrotes\bin\Debug\Tienda de Abarrotes.exe
+c:\users\dfjpmosh\documents\visual studio 2010\Projects\Tienda de Abarrotes\Tienda de Abarrotes\bin\Debug\Tienda de Abarrotes.pdb
+c:\users\dfjpmosh\documents\visual studio 2010\Projects\Tienda de Abarrotes\Tienda de Abarrotes\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\dfjpmosh\documents\visual studio 2010\Projects\Tienda de Abarrotes\Tienda de Abarrotes\obj\x86\Debug\Tienda_de_Abarrotes.Form1.resources
+c:\users\dfjpmosh\documents\visual studio 2010\Projects\Tienda de Abarrotes\Tienda de Abarrotes\obj\x86\Debug\Tienda_de_Abarrotes.FPreload.resources
+c:\users\dfjpmosh\documents\visual studio 2010\Projects\Tienda de Abarrotes\Tienda de Abarrotes\obj\x86\Debug\Tienda_de_Abarrotes.Properties.Resources.resources
+c:\users\dfjpmosh\documents\visual studio 2010\Projects\Tienda de Abarrotes\Tienda de Abarrotes\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\users\dfjpmosh\documents\visual studio 2010\Projects\Tienda de Abarrotes\Tienda de Abarrotes\obj\x86\Debug\GenerateResource.write.1.tlog
+c:\users\dfjpmosh\documents\visual studio 2010\Projects\Tienda de Abarrotes\Tienda de Abarrotes\obj\x86\Debug\Tienda de Abarrotes.exe
+c:\users\dfjpmosh\documents\visual studio 2010\Projects\Tienda de Abarrotes\Tienda de Abarrotes\obj\x86\Debug\Tienda de Abarrotes.pdb
+D:\dfjpmosh\Documents\Visual Studio 2010\Projects\Tienda de Abarrotes\Tienda de Abarrotes\bin\Debug\Tienda de Abarrotes.exe
+D:\dfjpmosh\Documents\Visual Studio 2010\Projects\Tienda de Abarrotes\Tienda de Abarrotes\bin\Debug\Tienda de Abarrotes.pdb
+D:\dfjpmosh\Documents\Visual Studio 2010\Projects\Tienda de Abarrotes\Tienda de Abarrotes\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\dfjpmosh\Documents\Visual Studio 2010\Projects\Tienda de Abarrotes\Tienda de Abarrotes\obj\x86\Debug\Tienda_de_Abarrotes.Form1.resources
+D:\dfjpmosh\Documents\Visual Studio 2010\Projects\Tienda de Abarrotes\Tienda de Abarrotes\obj\x86\Debug\Tienda_de_Abarrotes.FPreload.resources
+D:\dfjpmosh\Documents\Visual Studio 2010\Projects\Tienda de Abarrotes\Tienda de Abarrotes\obj\x86\Debug\Tienda_de_Abarrotes.Properties.Resources.resources
+D:\dfjpmosh\Documents\Visual Studio 2010\Projects\Tienda de Abarrotes\Tienda de Abarrotes\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\dfjpmosh\Documents\Visual Studio 2010\Projects\Tienda de Abarrotes\Tienda de Abarrotes\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\dfjpmosh\Documents\Visual Studio 2010\Projects\Tienda de Abarrotes\Tienda de Abarrotes\obj\x86\Debug\Tienda de Abarrotes.exe
+D:\dfjpmosh\Documents\Visual Studio 2010\Projects\Tienda de Abarrotes\Tienda de Abarrotes\obj\x86\Debug\Tienda de Abarrotes.pdb
+D:\dfjpmosh\Documents\Visual Studio 2010\Projects\Tienda de Abarrotes\Tienda de Abarrotes\obj\x86\Debug\Tienda_de_Abarrotes.FEditaProducto.resources
+D:\dfjpmosh\Documents\Visual Studio 2010\Projects\Tienda de Abarrotes\Tienda de Abarrotes\obj\x86\Debug\Tienda_de_Abarrotes.FInCantidad.resources
+D:\dfjpmosh\Documents\Visual Studio 2010\Projects\Tienda de Abarrotes\Tienda de Abarrotes\obj\x86\Debug\Tienda_de_Abarrotes.FSelecFecha.resources
+D:\dfjpmosh\Documents\Visual Studio 2010\Projects\Tienda de Abarrotes\Tienda de Abarrotes\obj\x86\Debug\Tienda_de_Abarrotes.FSelecPoC.resources
+D:\dfjpmosh\Documents\Visual Studio 2010\Projects\Tienda de Abarrotes\Tienda de Abarrotes\obj\x86\Debug\Tienda_de_Abarrotes.FPedidos.resources
