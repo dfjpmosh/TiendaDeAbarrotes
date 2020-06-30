@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2745E0"
+    tools:context=".Barra_cargado" >
+
+         <TextView
+             android:id="@+id/textView1"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignLeft="@+id/progressBar1"
+             android:layout_alignParentTop="true"
+             android:layout_marginTop="42dp"
+             android:text="Iniciando Sesion"
+             android:textColor="#000000"
+             android:textColorHint="@android:color/primary_text_dark"
+             android:textSize="20sp"
+             android:textStyle="bold" />
+
+         <ProgressBar
+             android:id="@+id/progressBar1"
+             style="?android:attr/progressBarStyleLarge"
+             android:layout_width="250dp"
+             android:layout_height="250dp"
+             android:layout_alignParentLeft="true"
+             android:layout_below="@+id/textView1"
+             android:layout_marginLeft="40dp"
+             android:layout_marginTop="22dp"
+             android:max="100" />
+
+         <TextView
+             android:id="@+id/TextView01"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignRight="@+id/progressBar1"
+             android:layout_below="@+id/progressBar1"
+             android:layout_marginTop="21dp"
+             android:text="Espere..."
+             android:textColor="#000000"
+             android:textColorHint="@android:color/primary_text_dark"
+             android:textSize="20sp"
+             android:textStyle="bold" />
+
+</RelativeLayout>

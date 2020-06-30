@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AndroidSQLconexion</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_barra_cargado">Barra_cargado</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_menu_principal">Menu_principal</string>
+
+</resources>
