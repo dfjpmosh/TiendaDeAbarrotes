@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#2745E0"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Carrito" >
+
+<TextView
+       android:id="@+id/prodCarrito"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Carrito"
+       android:gravity="center"
+       android:layout_margin="10px"
+       android:textSize="10pt"/>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+    <Button
+        android:id="@+id/btnGenPedido"
+        android:layout_width="wrap_content"
+        android:layout_height="28dp"
+        android:layout_gravity="right"
+        android:background="#0099CC"
+        android:paddingLeft="20dip"
+        android:paddingRight="20dip"
+        android:shadowColor="#FF8800"
+        android:shadowDx="1"
+        android:shadowDy="2"
+        android:shadowRadius="1.5"
+        android:text="Hacer Pedido"
+        android:textColor="#FFFFFF"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/total"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10px"
+        android:gravity="left"
+        android:text="TOTAL"
+        android:textColor="#030303"
+        android:textSize="10pt" />
+</LinearLayout>
+
+<FrameLayout
+       android:layout_width="match_parent"
+       android:layout_height="0dip"
+       android:layout_weight="1">
+       <ListView
+              android:id="@+id/listaCarrito"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:drawSelectorOnTop="false" />
+       
+</FrameLayout>
+</LinearLayout>

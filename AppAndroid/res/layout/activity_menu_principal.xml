@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#2745E0"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Menu_principal" >
+
+<TextView
+       android:id="@+id/categoria"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Categorias"
+       android:gravity="center"
+       android:layout_margin="10px"
+       android:textSize="10pt"/>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/btnPriIrCarrito"
+        android:layout_width="wrap_content"
+        android:layout_height="28dp"
+        android:layout_gravity="right"
+        android:background="#0099CC"
+        android:paddingLeft="20dip"
+        android:paddingRight="20dip"
+        android:shadowColor="#FF8800"
+        android:shadowDx="1"
+        android:shadowDy="2"
+        android:shadowRadius="1.5"
+        android:text="Ir al Carrito"
+        android:textColor="#FFFFFF"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+</LinearLayout>
+
+<FrameLayout
+       android:layout_width="match_parent"
+       android:layout_height="0dip"
+       android:layout_weight="1">
+       <ListView
+              android:id="@+id/lista"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:drawSelectorOnTop="false" />
+       
+</FrameLayout>
+</LinearLayout>

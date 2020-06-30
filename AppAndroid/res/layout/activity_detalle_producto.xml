@@ -1,0 +1,103 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2745E0"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Menu_productos" >
+
+<TextView
+       android:id="@+id/detproducto"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Detalle Producto"
+       android:gravity="center"
+       android:layout_margin="10px"
+       android:textSize="10pt"/>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/btnDPIrCarrito"
+        android:layout_width="wrap_content"
+        android:layout_height="28dp"
+        android:layout_gravity="right"
+        android:background="#0099CC"
+        android:paddingLeft="20dip"
+        android:paddingRight="20dip"
+        android:shadowColor="#FF8800"
+        android:shadowDx="1"
+        android:shadowDy="2"
+        android:shadowRadius="1.5"
+        android:text="Ir al Carrito"
+        android:textColor="#FFFFFF"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+</LinearLayout>
+
+<TextView
+    android:id="@+id/nomproducto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="TextView"
+    android:textColor="#030303"
+    android:textSize="20sp" />
+
+<TextView
+    android:id="@+id/preproducto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="TextView"
+    android:textColor="#030303"
+    android:textSize="20sp" />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <TextView
+        android:id="@+id/cantidadp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cantidad"
+        android:textColor="#030303"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/canproducto"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:text="1" />
+
+</LinearLayout>
+
+<Button
+    android:id="@+id/btnAgregarCarrito"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:background="#0099CC"
+    android:paddingLeft="20dip"
+    android:paddingRight="20dip"
+    android:shadowColor="#FF8800"
+    android:shadowDx="1"
+    android:shadowDy="2"
+    android:shadowRadius="1.5"
+    android:text="Agregar al Carrito"
+    android:textColor="#FFFFFF"
+    android:textSize="18dp"
+    android:textStyle="bold"
+    android:typeface="serif" />
+     
+</LinearLayout>
